@@ -1,0 +1,8 @@
+Git and GitHub
+1.git init
+2.git add .(also we can write file name)
+3.git status
+4.git checkout -b (name of branch)
+5.git remote add origin (url of repositry)
+6.git commit -m "message"
+7.git push origin "name of branch"
