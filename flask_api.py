@@ -71,8 +71,8 @@ def login():
 
         access_token = create_access_token(identity=username)
         return jsonify(access_token=access_token)
-    except Exception as e:
-        print(e)
+    except Exception:
+        return False
 
 
 @api.route("/employees/")
